@@ -1,0 +1,21 @@
+
+.btn {
+    border-radius: 10%;
+    height: 100px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: calc(33.333% - 2px);
+    margin-bottom: 3px;
+    background: #e5e5e5;
+    transition: all 0.5s;
+}
+
+.btn.disable {
+    pointer-events: none;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background: lightgrey;
+    transition: all 0.5s;
+}

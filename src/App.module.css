@@ -1,0 +1,32 @@
+.container {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: chocolate;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    padding: 5px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.appBtn {
+    display: block;
+    margin: 20px auto;
+    width: 300px;
+    font-size: 25px;
+    padding: 5px;
+}
+.wrapbtn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
